@@ -6,7 +6,7 @@ import logging
 import subprocess
 
 config = configparser.ConfigParser()
-config.read("configmtt.properties")
+config.read("config_mtt.properties")
 
 BOT_TOKEN = config["DEFAULT"]["BOT_TOKEN"]
 CHAT_ID = config["DEFAULT"]["CHAT_ID"]
